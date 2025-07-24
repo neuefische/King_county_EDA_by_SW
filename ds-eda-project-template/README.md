@@ -6,13 +6,13 @@ Template for creating ds simple projects
 ## Requirements
 
 - pyenv
-- python==3.11.3
+- python==3.12.7
 
 ## Setup
 
 One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of... 
 
-* setting the python version locally to 3.11.3
+* setting the python version locally to 3.12.7
 * creating a virtual environment using the `venv` module
 * activating your newly created environment 
 * upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
@@ -59,7 +59,7 @@ Before you can start with plotly in Jupyter Lab you have to install node.js (if 
 - `Step_2:` Install the virtual environment and the required packages by following commands:
 
     ```BASH
-    pyenv local 3.11.3
+    pyenv local 3.12.7
     python -m venv .venv
     source .venv/bin/activate
     pip install --upgrade pip
@@ -79,7 +79,7 @@ Before you can start with plotly in Jupyter Lab you have to install node.js (if 
    For `PowerShell` CLI :
 
     ```PowerShell
-    pyenv local 3.11.3
+    pyenv local 3.12.7
     python -m venv .venv
     .venv\Scripts\Activate.ps1
     python -m pip install --upgrade pip
@@ -89,7 +89,7 @@ Before you can start with plotly in Jupyter Lab you have to install node.js (if 
     For `Git-Bash` CLI :
   
     ```BASH
-    pyenv local 3.11.3
+    pyenv local 3.12.7
     python -m venv .venv
     source .venv/Scripts/activate
     python -m pip install --upgrade pip
